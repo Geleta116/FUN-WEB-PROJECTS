@@ -5,3 +5,10 @@ img{
     margin: 1.66%;
 
 }
+p{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 1.66%;
+    font-size: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
