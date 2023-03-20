@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="TIC-TAC-TOE.css">
+</head>
+<body>
+
+    <h1 class="h1"><strong>TIC TAC TOE</strong></h1>
+    <div id="output" class="output"> LET US PLAY</div>
+    <div class="horizonal_flex">
+        <p class = "sizer" id="x">X</p>
+        <p class = "sizer" id="o">O</p>
+   </div>
+    <table class="table">
+        <tr class="row" >
+            <td class="td" id="b1" onclick="check_b1()" ></td>
+            <td class="vertical td" id="b2" onclick="check_b2()"></td>
+            <td class="td" id="b3" onclick="check_b3() "></td>
+        </tr>
+        <tr row>
+            <td class="horizontal td" id="b4" onclick="check_b4()" ></td>
+            <td class="vertical horizontal td" id="b5" onclick="check_b5()" ></td>
+            <td class="horizontal td" id="b6" onclick= "check_b6()" ></td>
+        </tr>
+        <tr class="row">
+            <td class="td" id="b7" onclick= "check_b7()" ></td>
+            <td class="td vertical" id="b8" onclick= "check_b8()" ></td>
+            <td class="td" id="b9" onclick="check_b9()" ></td>
+        </tr>
+    </table>
+    <button class="button" id="replay" onclick=window.location.reload()> play again</button>
+
+      <script src="tic-tac-toe.js"></script>
+</body>
+</html>
